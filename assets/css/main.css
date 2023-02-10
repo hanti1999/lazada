@@ -26,12 +26,12 @@
     /* Header navbar */
 .header__nav {
     background-color: rgba(0, 0, 0, .03);
-    text-align: center;
+    text-align: right;
 }
 
 .header__nav-item {
     text-decoration: none;
-    margin: 0 8px;
+    margin: 0 17px;
 }
 
 .header__nav-item-text {
@@ -93,44 +93,60 @@
 
 .header__search-history {
     position: absolute;
-    width: 600px;
+    width: 100%;
     background-color: var(--white-color);
     border-radius: 2px;
-    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
-    top: calc(100% + 5px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+    top: 100%;
     display: none;
     flex-direction: column;
     overflow: hidden;
+    padding: 0px 20px 12px 20px;
 }
 
 .header__search-history-item {
-    padding: 10px 16px;
+    padding: 8px 0px;
     font-size: 1.3rem;
     color: var(--text-color);
     text-decoration: none;
 }
 
+.header__search-history-item-header {
+    padding: 8px 0px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.header__search-history-item--delete {
+    color: #f36d00;
+    float: right;
+    padding-right: 8px;
+    font-weight: 450;
+    cursor: pointer;
+}
+
 .header__search-history-ticket {
     float: right;
     margin-right: 8px;
-    color: #f57224;
+    color: #f36d00;
 }
 
 .header__search-history-item:hover {
-    background-color: rgba(0, 0, 0, .02)
+    color: #f36d00;
 }
 
 .header__search-input {
     border: none;
     background-color: #eff0f5;
-    padding: 12px 18px;
+    color: #212121;
+    padding: 12px 20px;
     border-radius: 2px;
     flex: 1;
     outline: none;
 }
 
 .header__search-btn {
-    background-color: #f57224;
+    background-color: #f36d00;
     width: 45px;
     height: 45px;
     display: flex;
