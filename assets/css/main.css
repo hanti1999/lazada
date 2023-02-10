@@ -32,6 +32,7 @@
 .header__nav-item {
     text-decoration: none;
     margin: 0 17px;
+    position: relative;
 }
 
 .header__nav-item-text {
@@ -48,6 +49,29 @@
 .header__nav-item-text--link {
     color: #0f1568;
 
+}
+
+    /* Header nav QR */
+.header__nav-QR.show-QR {
+    display: block;
+}
+
+.header__nav-QR {
+    width: 340px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    padding: 20px;
+    top: calc(100% + 18px);
+    text-align: left;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.header__nav-QR-title {
+    margin-bottom: 20px;
 }
 
     /* Header with search */
