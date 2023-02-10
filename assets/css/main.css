@@ -74,6 +74,14 @@
     margin-bottom: 20px;
 }
 
+.header__nav-customer-care {
+    display: none;
+}
+
+.header__nav-track {
+    display: none;
+}
+
     /* Header with search */
 .header__with-search {
     height: 90px;
