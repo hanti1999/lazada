@@ -74,6 +74,7 @@
     transform: translateX(-50%);
     z-index: 1;
     cursor: default;
+    border-radius: 2px;
 }
 
 .header__nav-QR::before {
@@ -175,6 +176,7 @@
     transform: translateX(-50%);
     border: 1px solid #ccc;
     top: calc(100% + 12px);
+    border-radius: 2px;
 }
 
 .header__nav-customer-care::before {
