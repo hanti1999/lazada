@@ -33,6 +33,12 @@
     text-decoration: none;
     margin: 0 17px;
     position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header__nav-item:last-child {
+    margin: 0px 0px 0px 17px;
 }
 
 .header__nav-item-text {
@@ -51,11 +57,7 @@
 
 }
 
-    /* Header nav QR */
-.header__nav-QR.show-QR {
-    display: block;
-}
-
+    /* Header nav popup */
 .header__nav-QR {
     width: 340px;
     position: absolute;
@@ -70,6 +72,10 @@
     display: none;
 }
 
+.header__nav-QR.show-QR {
+    display: block;
+}
+
 .header__nav-QR-title {
     margin-bottom: 20px;
 }
@@ -78,8 +84,24 @@
     display: none;
 }
 
+.header__nav-customer-care.show-customer-care {
+    display: block;
+}
+
 .header__nav-track {
     display: none;
+}
+
+.header__nav-track.show-track {
+    display: block;
+}
+
+.header__nav-language {
+    display: none;
+}
+
+.header__nav-language.show-language {
+    display: block;
 }
 
     /* Header with search */
@@ -95,7 +117,7 @@
 }
 
 .header__logo {
-    width: 200px;
+    width: 210px;
     display: flex;
     padding: 0px 8px;
 }
@@ -218,7 +240,6 @@
 
 .header__voucher-img {
     width: 188px;
-    padding-right: 8px;
 }
 
 .header__slider {
