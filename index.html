@@ -47,9 +47,9 @@
                                     </a>
                                 </div>
                                 <div class="header__nav-QR-form">
-                                    <div class="header__nav-QR-form-wrap">
-                                        <input type="text" class="header__nav-QR-form-input" placeholder="eg. 012345678">
-                                        <button class="header__nav-QR-form-btn">
+                                    <div class="form-wrap">
+                                        <input type="text" class="form-input" placeholder="eg. 012345678">
+                                        <button class="form-btn btn">
                                             <i class="fa-solid fa-angle-right"></i>
                                         </button>
                                     </div>
@@ -57,6 +57,7 @@
                                 <div class="header__nav-QR-store">
                                     <a class="header__nav-QR-store-link" href="#">
                                         <img class="header__nav-QR-store-img" src="./assets/img/appstore.jpg" alt="">
+                                        <!-- <div style="background-image: url();"></div> -->
                                     </a>
                                     <a class="header__nav-QR-store-link" href="#">
                                         <img class="header__nav-QR-store-img" src="./assets/img/googleplay.jpg" alt="">
@@ -98,8 +99,24 @@
                         <div class="header__nav-item">
                             <span class="header__nav-item-text">kiểm tra đơn hàng</span>
                             <!-- Header nav tracking popup -->
-                            <div class="header__nav-track"> <!-- dùng js thêm class: show-track vào đây để hiện thẻ header__nav-track -->
-
+                            <div class="header__nav-track show-track"> <!-- dùng js thêm class: show-track vào đây để hiện thẻ header__nav-track -->
+                                <h3 class="header__nav-track-header">Kiểm tra đơn hàng</h3>
+                                <div class="header__nav-track-wrap">
+                                    <div class="header__nav-track-label">Vui lòng nhập địa chỉ email:</div>
+                                    <input type="email" class="form-input" style="border-radius: 2px;">
+                                </div>
+                                <div class="header__nav-track-wrap">
+                                    <div class="header__nav-track-label">Vui lòng nhập mã đơn hàng:</div>
+                                    <div class="form-wrap"> 
+                                        <input type="text" class="form-input" placeholder="eg. 123456789">
+                                        <button class="form-btn btn">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="header__nav-track-help">
+                                    <p>Nếu bạn có thắc mắc nào khác, <a href="#" class="header__nav-track-help-link">Nhấn vào đây</a></p>
+                                </div>
                             </div>
                         </div>
                         <a href="#" class="header__nav-item">
@@ -111,8 +128,18 @@
                         <div class="header__nav-item">
                             <span class="header__nav-item-text">Change language</span>
                             <!-- Header nav change language popup -->
-                            <div class="header__nav-language"> <!-- dùng js thêm class: show-language vào đây để hiện thẻ header__nav-language -->
-
+                            <div class="header__nav-language show-language"> <!-- dùng js thêm class: show-language vào đây để hiện thẻ header__nav-language -->
+                                <div class="header__nav-language-wrap">
+                                    <div class="header__nav-language-item header__nav-language-item--selected">
+                                        <span class="header__nav-language-VN-icon" style="background-image: url(https://lzd-img-global.slatic.net/g/tps/tfs/TB1nQJUcwmTBuNjy1XbXXaMrVXa-986-930.png);"></span>
+                                        <span>VN / <br>Vietnamese </span>
+                                        <i class="header__nav-language-checked-icon fa-solid fa-check"></i>
+                                    </div>
+                                    <div class="header__nav-language-item">
+                                        <span class="header__nav-language-EN-icon"  style="background-image: url(https://lzd-img-global.slatic.net/g/tps/tfs/TB1nQJUcwmTBuNjy1XbXXaMrVXa-986-930.png);"></span>
+                                        <span>EN / <br>English </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -147,14 +174,14 @@
                                         <a href="#" class="header__search-history-item">SSD Samsung Evo</a>
                                         <a href="#" class="header__search-history-item">Ram Samsung DDR5</a>
                                     </div>
-                                    <div class="header__search-btn">
+                                    <div class="header__search-btn btn">
                                         <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
                                     </div>
                                 </div>
                             </div>
                             <div class="header__cart">
                                 <a href="#" class="header__cart-link">
-                                    <div class="header__cart-btn">
+                                    <div class="header__cart-btn btn">
                                         <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
                                     </div>
                                 </a>

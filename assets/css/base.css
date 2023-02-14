@@ -25,3 +25,40 @@ html {
     max-width: 100%;
     margin: 0 auto;
 }
+
+.btn {
+    border: none;
+    cursor: pointer;
+}
+
+/* input === */
+.form-wrap {
+    display: flex;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: #eff0f5;
+    border: none;
+    flex: 1;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    outline: none;
+    width: 100%;
+}
+
+.form-btn {
+    background-color: #f36f36;
+    width: 28px;
+    height: 38px;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    cursor: default;
+}
+
+.form-btn i {
+    color: #fff;
+    font-size: 2.5rem;
+}
+/* === End input */
