@@ -28,10 +28,10 @@
                 <!-- Header navbar -->
                 <div class="header__nav">
                     <div class="grid">
-                        <div class="header__nav-item">
+                        <div class="header__nav-item show-QR">
                             <span class="header__nav-item-text header__nav-item-text--link">Tiết kiệm hơn với ứng dụng</span>
                             <!-- Header nav QR popup -->
-                            <div class="header__nav-QR show-QR"> <!-- dùng js thêm class: show-QR vào đây để hiện thẻ header__nav-QR -->
+                            <div class="header__nav-QR">
                                 <div class="header__nav-QR-title">Tải ứng dụng để có trải nghiệm tốt nhất</div>
                                 <div class="header__nav-QR-promotion">
                                     <img src="./assets/img/NavQR.png" alt="">
@@ -56,12 +56,10 @@
                                 </div>
                                 <div class="header__nav-QR-store">
                                     <a class="header__nav-QR-store-link" href="#">
-                                        <!-- <img class="header__nav-QR-store-img" src="./assets/img/appstore.jpg" alt=""> -->
                                         <div class="header__nav-QR-store-img"></div>
                                     </a>
                                     <a class="header__nav-QR-store-link" href="#">
                                         <div class="header__nav-QR-google-img"></div>
-                                        <!-- <img class="header__nav-QR-store-img" src="./assets/img/googleplay.jpg" alt="">  -->
                                     </a>
                                 </div>
                             </div>
@@ -69,10 +67,10 @@
                         <a href="#" class="header__nav-item">
                             <span class="header__nav-item-text header__nav-item-text--link">Bán hàng cùng lazada</span>
                         </a>
-                        <div class="header__nav-item">
+                        <div class="header__nav-item show-customer-care">
                             <span class="header__nav-item-text">chăm sóc khách hàng</span>
                             <!-- Header nav customer care popup -->
-                            <div class="header__nav-customer-care show-customer-care"> <!-- dùng js thêm class: show-customer-care vào đây để hiện thẻ header__nav-customer-care -->
+                            <div class="header__nav-customer-care">
                                 <div class="header__nav-customer-care-list">
                                     <a href="#" class="header__nav-customer-care-item">
                                         <i class="header__nav-customer-care-icon fa-solid fa-user-tie"></i>
@@ -97,10 +95,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="header__nav-item">
+                        <div class="header__nav-item show-track">
                             <span class="header__nav-item-text">kiểm tra đơn hàng</span>
                             <!-- Header nav tracking popup -->
-                            <div class="header__nav-track show-track"> <!-- dùng js thêm class: show-track vào đây để hiện thẻ header__nav-track -->
+                            <div class="header__nav-track">
                                 <h3 class="header__nav-track-header">Kiểm tra đơn hàng</h3>
                                 <div class="header__nav-track-wrap">
                                     <div class="header__nav-track-label">Vui lòng nhập địa chỉ email:</div>
@@ -126,10 +124,10 @@
                         <a href="#" class="header__nav-item">
                             <span class="header__nav-item-text">Đăng ký</span>
                         </a>
-                        <div class="header__nav-item">
+                        <div class="header__nav-item show-language">
                             <span class="header__nav-item-text">Change language</span>
                             <!-- Header nav change language popup -->
-                            <div class="header__nav-language show-language"> <!-- dùng js thêm class: show-language vào đây để hiện thẻ header__nav-language -->
+                            <div class="header__nav-language">
                                 <div class="header__nav-language-wrap">
                                     <div class="header__nav-language-item header__nav-language-item--selected">
                                         <span class="header__nav-language-VN-icon"></span>
@@ -196,7 +194,47 @@
                     </div>
                 </div>
                 <div class="header__slider">
-                    
+                    <div class="header_home-category">
+                        <ul class="header_home-category-list">
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Thiết bị điện tử</a>
+                                <i class="header_home-category-item-icon fa-solid fa-angle-right"></i>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Phụ kiện điện tử</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">TV & Thiết bị gia dụng</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Sức khỏe và làm đẹp</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Hàng mẹ, bé và đồ chơi</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Siêu thị tạp hóa</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Hàng gia dụng & đời sống</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Thời trang & phụ kiện nữ</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Thời trang & phụ kiện nam</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Thời trang & phụ kiện trẻ em</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Thể thao & du lịch</a>
+                            </li>
+                            <li class="header_home-category-item">
+                                <a class="header_home-category-item-link" href="#">Oto, xe máy & thiết bị định vị</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
