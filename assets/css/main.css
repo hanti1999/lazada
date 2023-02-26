@@ -159,7 +159,7 @@
     width: 135px;
     height: 46px;
     background-repeat: no-repeat;
-    background-position: -529px -625px;
+    background-position: -530px -625px;
     background-image: url(https://lzd-img-global.slatic.net/g/tps/tfs/TB1nQJUcwmTBuNjy1XbXXaMrVXa-986-930.png);
 }
 
@@ -207,8 +207,26 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    color: #9e9e9e !important;
-    font-size: 2rem;
+    background-image: url(https://lzd-img-global.slatic.net/g/tps/tfs/TB1nQJUcwmTBuNjy1XbXXaMrVXa-986-930.png);
+    background-position: -163px -714px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 24px;
+}
+
+.header__nav-customer-care-item:nth-child(2) .header__nav-customer-care-icon {
+    background-position: -133px -716px;
+}
+
+.header__nav-customer-care-item:nth-child(3) .header__nav-customer-care-icon {
+    background-position: -101px -720px; 
+    width: 28px; 
+    height: 15px;
+}
+
+.header__nav-customer-care-item:nth-child(4) .header__nav-customer-care-icon {
+    background-position: -73px -714px; 
+    height: 25px;
 }
 
 .header__nav-customer-care-item:hover {
@@ -328,7 +346,7 @@
 }
 
 .header__nav-language-VN-icon {
-    background-position: -634px -709px;
+    background-position: -633px -709px;
     left: -35px;
 }
 
